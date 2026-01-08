@@ -12,11 +12,11 @@ def analyze_usage():
     hours = float(entry.get())
 
     if hours < 2:
-        msg = "✅ Good usage! Keep it balanced."
+        msg = "Good usage! Keep it balanced."
     elif hours <= 5:
-        msg = "⚠️ Moderate usage. Take small breaks."
+        msg = "Moderate usage. Take small breaks."
     else:
-        msg = "🚨 High screen time! Consider digital detox."
+        msg = "High screen time! Consider digital detox."
 
     messagebox.showinfo("Digital Wellbeing Result", msg)
 
@@ -25,7 +25,7 @@ root = tk.Tk()
 root.title("AI-Inspired Digital Wellbeing Tracker")
 root.geometry("350x200")
 
-tk.Label(root, text="📱 Screen Time Today (Hours)", font=("Arial", 12)).pack(pady=10)
+tk.Label(root, text="Screen Time Today (Hours)", font=("Arial", 12)).pack(pady=10)
 
 entry = tk.Entry(root)
 entry.pack()
