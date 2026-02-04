@@ -1,9 +1,7 @@
 # dti
 
-https://classroom.github.com/a/6qpf5dvg
 
-
-
+https://classroom.github.com/a/Kj7KTQHh
 
 import tkinter as tk
 from tkinter import messagebox
