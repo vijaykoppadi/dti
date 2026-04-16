@@ -1,32 +1,3 @@
-# dti
-
-https://classroom.github.com/a/6qpf5dvg
-
-import tkinter as tk
-from tkinter import messagebox
-
-def analyze_usage():
-    hours = float(entry.get())
-
-    if hours < 2:
-        msg = "Good usage! Keep it balanced."
-    elif hours <= 5:
-        msg = "Moderate usage. Take small breaks."
-    else:
-        msg = "High screen time! Consider digital detox."
-
-    messagebox.showinfo("Digital Wellbeing Result", msg)
-
-# GUI Window
-root = tk.Tk()
-root.title("AI-Inspired Digital Wellbeing Tracker")
-root.geometry("350x200")
-
-tk.Label(root, text="Screen Time Today (Hours)", font=("Arial", 12)).pack(pady=10)
-
-entry = tk.Entry(root)
-entry.pack()
-
-tk.Button(root, text="Analyze Usage", command=analyze_usage).pack(pady=20)
-
-root.mainloop()
+Ex1 & Ex4: 501, 505, 508, 511, 516, 520, 521, 524, 527, 530, 534, 538, 541, 544, 548, 551, 554, 557, 560, 563, L05
+Ex2 & Ex5: 502, 506, 509, 512, 518, 522, 525, 528, 531, 536, 539, 542, 545, 549, 552, 555, 558,  561, L01, L03, L06
+Ex3 & Ex1: 504, 507, 510, 515, 519, 523, 526, 529, 533, 537, 540, 543, 546, 550, 553, 556, 559,  562, L02, L04, L07
